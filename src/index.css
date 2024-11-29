@@ -1,0 +1,116 @@
+:root {
+  /* line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+  --white: #fff;
+  --bg-gray: #ddd;
+  --link-hover: #f9f3f3;
+  /* font-synthesis: none; */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Inter, "Segoe UI", Tahoma, monospace, Verdana, sans-serif;
+  margin: 0;
+  background-color: var(--bg-gray);
+  /* background: linear-gradient(to right, #ddd, #000); */
+  /* background-image: url(./assets/images/bg.jpg); */
+}
+
+a {
+  font-weight: 600;
+}
+
+/* Header */
+header nav {
+  height: 67px;
+  box-shadow: 10px 10px 20px white, -10px -10px 20px black;
+}
+header li {
+  margin: 0 5px;
+}
+nav li:hover:not(#close, #menu),
+#sidebar li a:hover:not(#content-icon) {
+  box-shadow: 10px 10px 20px white, -10px -10px 20px black;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background: transparent;
+  font-weight: bold;
+}
+/* Header */
+
+/* Sidebar */
+#sidebar {
+  display: none;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 999;
+  box-shadow: -5px 0 10px white;
+  min-width: 250px;
+  backdrop-filter: blur(10px);
+  transition: all 0.75s;
+}
+
+#sidebar li {
+  width: 100%;
+}
+/* Sidebar */
+
+/* Hero */
+#hero {
+  height: 80vh;
+}
+
+#hero h2 {
+  margin: 15px 0;
+  padding: 5px 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px white, -10px -10px 20px black;
+}
+#hero span {
+  /* box-shadow: 0px 10px 10px white, 0px -5px 10px black; */
+  box-shadow: 0px 0px 10px white;
+}
+.btn {
+  box-shadow: 1px 1px 5px white, -1px -1px 5px black;
+}
+.btn:hover {
+  box-shadow: 5px 5px 10px black, -5px -5px 10px white;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  #sidemap li:not(#menu) {
+    display: none;
+  }
+  #sidebar {
+    transition: 0.75s ease;
+    right: 0;
+  }
+}
+/* Tablet */
+
+/* Moblie View */
+@media (max-width: 400px) {
+  #sidebar {
+    width: 100%;
+  }
+}
