@@ -2,11 +2,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBootstrap } from "@fortawesome/free-brands-svg-icons";
 
 import myimage from "./assets/images/thiha.jpg";
-import js from "./assets/javaScript.png";
-import react from "./assets/react.png";
 import html from "./assets/html5.png";
 import css from "./assets/css.png";
-
+import js from "./assets/javaScript.png";
+import react from "./assets/react.png";
 import pc from "./assets/images/pc.png";
 
 export default function Hero() {
