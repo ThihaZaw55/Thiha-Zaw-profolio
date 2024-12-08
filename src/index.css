@@ -25,8 +25,6 @@ body {
   font-family: Inter, "Segoe UI", Tahoma, monospace, Verdana, sans-serif;
   margin: 0;
   background-color: var(--bg-gray);
-  /* background: linear-gradient(to right, #ddd, #000); */
-  /* background-image: url(./assets/images/bg.jpg); */
 }
 
 a {
@@ -48,6 +46,15 @@ nav li:hover:not(#close, #menu),
   backdrop-filter: blur(10px);
   background: transparent;
   font-weight: bold;
+}
+nav li:hover:not(#close, #menu),
+#sidebar li a:hover:not(#content-icon) {
+  box-shadow: 10px 10px 20px white, -10px -10px 20px black;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background: transparent;
+  font-weight: bold;
+  transform: translateY(4px);
 }
 /* Header */
 
@@ -72,7 +79,6 @@ nav li:hover:not(#close, #menu),
 
 /* Hero */
 #hero {
-  /* background-color: red; */
   padding-left: 20px;
   height: 90vh;
 }
@@ -92,6 +98,19 @@ nav li:hover:not(#close, #menu),
 .btn:hover {
   box-shadow: 5px 5px 10px black, -5px -5px 10px white;
 }
+/* Hero */
+
+/* Project */
+#project-title {
+  background-color: var(--bg-gray);
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid white;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  box-shadow: 0 0 20px white;
+}
+/* Project */
 
 .pointer {
   cursor: pointer;

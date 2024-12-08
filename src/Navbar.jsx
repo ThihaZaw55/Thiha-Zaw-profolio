@@ -35,7 +35,7 @@ function Header() {
 
         <li className="nav-item px-1">
           <a className="nav-link ps-2" href="#">
-            Work
+            Projects
           </a>
         </li>
         <li className="nav-item px-1">
@@ -57,6 +57,12 @@ function Header() {
           <a className="nav-link me-1 px-3 rounded-circle" href="#">
             <i class="bi bi-linkedin text-primary"></i>
           </a>
+          <a
+            className="nav-link me-1 px-3 rounded-circle"
+            href="https://github.com/ThihaZaw55/"
+          >
+            <i class="bi bi-github text-primary"></i>
+          </a>
           <a className="nav-link me-1 px-3 rounded-circle" href="#">
             <i class="bi bi-facebook text-primary"></i>
           </a>
@@ -76,7 +82,7 @@ function Header() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0" id="sidemap">
             <li className="nav-item px-1">
               <a className="nav-link" href="#">
-                Work
+                Projects
               </a>
             </li>
             <li className="nav-item px-1">
@@ -97,6 +103,11 @@ function Header() {
             <li className="nav-item px-1">
               <a className="nav-link" href="#">
                 <i class="bi bi-linkedin text-primary"></i>
+              </a>
+            </li>
+            <li className="nav-item px-1">
+              <a className="nav-link" href="https://github.com/ThihaZaw55/">
+                <i class="bi bi-github text-primary"></i>
               </a>
             </li>
             <li className="nav-item px-1">

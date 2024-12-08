@@ -13,7 +13,7 @@ export default function Hero() {
     <section className="container d-block">
       <div className="row">
         <div
-          className="col-md-6 d-flex justify-content-center flex-column align-items-md-start align-items-center"
+          className="col-md-6 mb-0 d-flex justify-content-center flex-column align-items-md-start align-items-center"
           id="hero"
         >
           <h4>Hi, I'm Thiha Zaw</h4>
@@ -60,12 +60,21 @@ export default function Hero() {
               />
             </span>
           </div>
-          <div className="mt-4">
-            <button className="btn btn-transparent me-4">Projects</button>
-            <button className="btn btn-transparent">Contact</button>
+          <div className="mt-3">
+            <a className="mx-2" href="#">
+              <i class="bi bi-linkedin text-primary fs-5"></i>
+            </a>
+            <a className="mx-2" href="https://github.com/ThihaZaw55/">
+              <i class="bi bi-github text-black fs-5"></i>
+            </a>
+          </div>
+          <div className="mt-3">
+            <button className="btn btn-dark me-4">Projects</button>
+            <button className="btn btn-dark">Contact</button>
           </div>
         </div>
-        <div className="col-md-6 d-flex justify-content-center flex-column align-items-center">
+
+        <div className="col-md-6 mt-0 d-flex justify-content-center flex-column align-items-center">
           <img
             src={pc}
             className="rounded"
