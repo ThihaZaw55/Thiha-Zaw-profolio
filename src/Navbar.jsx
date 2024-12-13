@@ -4,14 +4,15 @@ function Header() {
     const sidebar = document.getElementById("sidebar");
     const menu = document.getElementById("menu");
 
-    sidebar.style.display = "flex";
+    sidebar.style.width = "250px";
     menu.style.display = "none";
   };
 
   const closeHandel = () => {
     const sidebar = document.getElementById("sidebar");
 
-    sidebar.style.display = "none";
+    sidebar.style.width = "0px";
+
     menu.style.display = "inline-block";
   };
 

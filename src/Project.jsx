@@ -80,8 +80,77 @@ export default function Projects() {
             </a>
           </div>
         </div>
-
         {/* Clinic */}
+      </div>
+      <div className="container mt-5">
+        <div className="card">
+          <div className="row">
+            <div className="col-6">
+              <div className="card-text">
+                <h1>Aesthethic Clinic Project</h1>
+                <div className="card-body d-flex mt-2">
+                  <p className="btn me-3">
+                    <img src={html} alt="" width={28} />
+                  </p>
+                  <p className="btn me-3">
+                    <img src={css} alt="" width={28} />
+                  </p>
+                  <p className="btn me-3">
+                    <img src={js} alt="" width={28} />
+                  </p>
+                  <p className="btn me-3">
+                    <FontAwesomeIcon
+                      icon={faBootstrap}
+                      size="2xl"
+                      className="text-primary"
+                    />
+                  </p>
+                  <p className="btn me-3">
+                    <img src={php} alt="" width={28} />
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-6">
+              <div className="card-image">
+                <img src={clinic} alt="" width={400} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mt-5">
+        <div className="card d-flex justify-content-between">
+          <div className="card-body">
+            <h1 className="card-text">Aesthethic Clinic Project</h1>
+            <div className="card-body d-flex mt-2">
+              <p className="btn me-3">
+                <img src={html} alt="" width={28} />
+              </p>
+              <p className="btn me-3">
+                <img src={css} alt="" width={28} />
+              </p>
+              <p className="btn me-3">
+                <img src={js} alt="" width={28} />
+              </p>
+              <p className="btn me-3">
+                <FontAwesomeIcon
+                  icon={faBootstrap}
+                  size="2xl"
+                  className="text-primary"
+                />
+              </p>
+              <p className="btn me-3">
+                <img src={php} alt="" width={28} />
+              </p>
+            </div>
+          </div>
+
+          <div className="card-image">
+            <img src={clinic} alt="" width={400} />
+          </div>
+        </div>
       </div>
     </section>
   );
