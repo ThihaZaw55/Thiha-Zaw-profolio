@@ -1,17 +1,20 @@
-import Header from "./Navbar.jsx";
+import Navbar from "./Navbar.jsx";
+import Footer from "./Footer.jsx";
+
 import Hero from "./Hero.jsx";
 import Project from "./Project.jsx";
-import Footer from "./Footer.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 // import "./index.css";
 
 function App() {
   return (
-    <>
-      <Header />
+    <BrowserRouter>
+      <Navbar />
       <Hero />
       <Project />
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

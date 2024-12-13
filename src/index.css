@@ -15,7 +15,8 @@
 
 body {
   min-height: 100vh;
-  font-family: Inter, "Segoe UI", Tahoma, monospace, Verdana, sans-serif;
+  font-family: Roboto, Poppins, "Segoe UI", Tahoma, monospace, Verdana,
+    sans-serif;
   margin: 0;
   background-color: var(--bg-gray);
 }

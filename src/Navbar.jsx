@@ -82,22 +82,22 @@ function Header() {
           </a>
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0" id="sidemap">
             <li className="nav-item px-1">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#project">
                 Projects
               </a>
             </li>
             <li className="nav-item px-1">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#skill">
                 Skill
               </a>
             </li>
             <li className="nav-item px-1">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#about">
                 About
               </a>
             </li>
             <li className="nav-item px-1">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>

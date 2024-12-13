@@ -69,8 +69,12 @@ export default function Hero() {
             </a>
           </div>
           <div className="mt-3">
-            <button className="btn btn-dark me-4">Projects</button>
-            <button className="btn btn-dark">Contact</button>
+            <a href="#project" className="btn btn-dark me-4">
+              Projects
+            </a>
+            <a href="#project" className="btn btn-dark">
+              Contact
+            </a>
           </div>
         </div>
 

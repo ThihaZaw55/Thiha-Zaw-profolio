@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="d-block mt-4">
-      <p className="text-center pt-3">&copy; All Right Reserved.</p>
+    <footer className="container-fluid mt-5 bg-info">
+      <p className="text-center py-3 m-0">&copy; All Right Reserved.</p>
     </footer>
   );
 }
