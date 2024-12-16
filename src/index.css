@@ -22,9 +22,12 @@ body {
 }
 
 a {
+  text-decoration: none;
   font-weight: 600;
 }
-
+li {
+  list-style-type: none;
+}
 /* Header */
 header nav {
   height: 67px;
@@ -54,8 +57,9 @@ nav li:hover:not(#close, #menu),
 
 /* Sidebar */
 #sidebar {
-  display: none;
+  display: block;
   padding: 0px;
+  width: 0;
   position: fixed;
   top: 0;
   right: -100%;
@@ -98,13 +102,27 @@ nav li:hover:not(#close, #menu),
 #project-title {
   background-color: var(--bg-gray);
   padding: 10px;
-  margin: 20px auto;
+  margin: 40px auto;
   border: 1px solid white;
   border-left: 5px solid black;
   border-right: 5px solid black;
   box-shadow: 0 0 20px white;
 }
+#projects .card {
+  box-shadow: 0px 0px 20px white;
+  backdrop-filter: blur(20px);
+  border: 1px solid white;
+}
+#projects .card-img-top {
+  box-shadow: 0px 0px 20px white;
+}
 /* Project */
+
+/* About */
+#about .card {
+  border: 1px solid white;
+}
+/* About */
 
 .pointer {
   cursor: pointer;
@@ -116,7 +134,6 @@ nav li:hover:not(#close, #menu),
     display: none;
   }
   #sidebar {
-    transition: 0.75s ease;
     right: 0;
   }
 }
