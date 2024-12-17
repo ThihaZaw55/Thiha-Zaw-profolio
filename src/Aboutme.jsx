@@ -55,7 +55,7 @@ export default function About() {
               <Card img={js} title="JavaScript Intermediate" />
             </div>
             <div className="col-md-6">
-              <Card img={wd} title="JavaScript Intermediate" />
+              <Card img={wd} title="Web Development" />
             </div>
           </div>
         </div>
